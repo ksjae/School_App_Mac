@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2E210621EB1BB400471722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E210521EB1BB400471722 /* AppDelegate.swift */; };
+		1B2E210821EB1BB400471722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E210721EB1BB400471722 /* ViewController.swift */; };
+		1B2E210B21EB1BB400471722 /* School_App_Mac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E210921EB1BB400471722 /* School_App_Mac.xcdatamodeld */; };
+		1B2E210D21EB1BB600471722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B2E210C21EB1BB600471722 /* Assets.xcassets */; };
+		1B2E211021EB1BB600471722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2E210E21EB1BB600471722 /* Main.storyboard */; };
+		1B2E211C21EB1BB600471722 /* School_App_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E211B21EB1BB600471722 /* School_App_MacTests.swift */; };
+		1B2E212721EB1BB600471722 /* School_App_MacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E212621EB1BB600471722 /* School_App_MacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B2E211821EB1BB600471722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B2E20FA21EB1BB400471722 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B2E210121EB1BB400471722;
+			remoteInfo = School_App_Mac;
+		};
+		1B2E212321EB1BB600471722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B2E20FA21EB1BB400471722 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B2E210121EB1BB400471722;
+			remoteInfo = School_App_Mac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B2E210221EB1BB400471722 /* School_App_Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = School_App_Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2E210521EB1BB400471722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B2E210721EB1BB400471722 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B2E210A21EB1BB400471722 /* School_App_Mac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = School_App_Mac.xcdatamodel; sourceTree = "<group>"; };
+		1B2E210C21EB1BB600471722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B2E210F21EB1BB600471722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B2E211121EB1BB600471722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B2E211221EB1BB600471722 /* School_App_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = School_App_Mac.entitlements; sourceTree = "<group>"; };
+		1B2E211721EB1BB600471722 /* School_App_MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = School_App_MacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2E211B21EB1BB600471722 /* School_App_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_App_MacTests.swift; sourceTree = "<group>"; };
+		1B2E211D21EB1BB600471722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B2E212221EB1BB600471722 /* School_App_MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = School_App_MacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2E212621EB1BB600471722 /* School_App_MacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_App_MacUITests.swift; sourceTree = "<group>"; };
+		1B2E212821EB1BB600471722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B2E20FF21EB1BB400471722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B2E211421EB1BB600471722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B2E211F21EB1BB600471722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B2E20F921EB1BB400471722 = {
+			isa = PBXGroup;
+			children = (
+				1B2E210421EB1BB400471722 /* School_App_Mac */,
+				1B2E211A21EB1BB600471722 /* School_App_MacTests */,
+				1B2E212521EB1BB600471722 /* School_App_MacUITests */,
+				1B2E210321EB1BB400471722 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B2E210321EB1BB400471722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B2E210221EB1BB400471722 /* School_App_Mac.app */,
+				1B2E211721EB1BB600471722 /* School_App_MacTests.xctest */,
+				1B2E212221EB1BB600471722 /* School_App_MacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B2E210421EB1BB400471722 /* School_App_Mac */ = {
+			isa = PBXGroup;
+			children = (
+				1B2E210521EB1BB400471722 /* AppDelegate.swift */,
+				1B2E210721EB1BB400471722 /* ViewController.swift */,
+				1B2E210C21EB1BB600471722 /* Assets.xcassets */,
+				1B2E210E21EB1BB600471722 /* Main.storyboard */,
+				1B2E211121EB1BB600471722 /* Info.plist */,
+				1B2E211221EB1BB600471722 /* School_App_Mac.entitlements */,
+				1B2E210921EB1BB400471722 /* School_App_Mac.xcdatamodeld */,
+			);
+			path = School_App_Mac;
+			sourceTree = "<group>";
+		};
+		1B2E211A21EB1BB600471722 /* School_App_MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B2E211B21EB1BB600471722 /* School_App_MacTests.swift */,
+				1B2E211D21EB1BB600471722 /* Info.plist */,
+			);
+			path = School_App_MacTests;
+			sourceTree = "<group>";
+		};
+		1B2E212521EB1BB600471722 /* School_App_MacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B2E212621EB1BB600471722 /* School_App_MacUITests.swift */,
+				1B2E212821EB1BB600471722 /* Info.plist */,
+			);
+			path = School_App_MacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B2E210121EB1BB400471722 /* School_App_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B2E212B21EB1BB600471722 /* Build configuration list for PBXNativeTarget "School_App_Mac" */;
+			buildPhases = (
+				1B2E20FE21EB1BB400471722 /* Sources */,
+				1B2E20FF21EB1BB400471722 /* Frameworks */,
+				1B2E210021EB1BB400471722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = School_App_Mac;
+			productName = School_App_Mac;
+			productReference = 1B2E210221EB1BB400471722 /* School_App_Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B2E211621EB1BB600471722 /* School_App_MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B2E212E21EB1BB600471722 /* Build configuration list for PBXNativeTarget "School_App_MacTests" */;
+			buildPhases = (
+				1B2E211321EB1BB600471722 /* Sources */,
+				1B2E211421EB1BB600471722 /* Frameworks */,
+				1B2E211521EB1BB600471722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B2E211921EB1BB600471722 /* PBXTargetDependency */,
+			);
+			name = School_App_MacTests;
+			productName = School_App_MacTests;
+			productReference = 1B2E211721EB1BB600471722 /* School_App_MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B2E212121EB1BB600471722 /* School_App_MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B2E213121EB1BB600471722 /* Build configuration list for PBXNativeTarget "School_App_MacUITests" */;
+			buildPhases = (
+				1B2E211E21EB1BB600471722 /* Sources */,
+				1B2E211F21EB1BB600471722 /* Frameworks */,
+				1B2E212021EB1BB600471722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B2E212421EB1BB600471722 /* PBXTargetDependency */,
+			);
+			name = School_App_MacUITests;
+			productName = School_App_MacUITests;
+			productReference = 1B2E212221EB1BB600471722 /* School_App_MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B2E20FA21EB1BB400471722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Seungjae Kim";
+				TargetAttributes = {
+					1B2E210121EB1BB400471722 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1B2E211621EB1BB600471722 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1B2E210121EB1BB400471722;
+					};
+					1B2E212121EB1BB600471722 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1B2E210121EB1BB400471722;
+					};
+				};
+			};
+			buildConfigurationList = 1B2E20FD21EB1BB400471722 /* Build configuration list for PBXProject "School_App_Mac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B2E20F921EB1BB400471722;
+			productRefGroup = 1B2E210321EB1BB400471722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B2E210121EB1BB400471722 /* School_App_Mac */,
+				1B2E211621EB1BB600471722 /* School_App_MacTests */,
+				1B2E212121EB1BB600471722 /* School_App_MacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B2E210021EB1BB400471722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2E210D21EB1BB600471722 /* Assets.xcassets in Resources */,
+				1B2E211021EB1BB600471722 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B2E211521EB1BB600471722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B2E212021EB1BB600471722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B2E20FE21EB1BB400471722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2E210821EB1BB400471722 /* ViewController.swift in Sources */,
+				1B2E210B21EB1BB400471722 /* School_App_Mac.xcdatamodeld in Sources */,
+				1B2E210621EB1BB400471722 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B2E211321EB1BB600471722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2E211C21EB1BB600471722 /* School_App_MacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B2E211E21EB1BB600471722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2E212721EB1BB600471722 /* School_App_MacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B2E211921EB1BB600471722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B2E210121EB1BB400471722 /* School_App_Mac */;
+			targetProxy = 1B2E211821EB1BB600471722 /* PBXContainerItemProxy */;
+		};
+		1B2E212421EB1BB600471722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B2E210121EB1BB400471722 /* School_App_Mac */;
+			targetProxy = 1B2E212321EB1BB600471722 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B2E210E21EB1BB600471722 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B2E210F21EB1BB600471722 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B2E212921EB1BB600471722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B2E212A21EB1BB600471722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1B2E212C21EB1BB600471722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = School_App_Mac/School_App_Mac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9AWTG64K4K;
+				INFOPLIST_FILE = School_App_Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.IASA-NULL.School-App-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		1B2E212D21EB1BB600471722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = School_App_Mac/School_App_Mac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9AWTG64K4K;
+				INFOPLIST_FILE = School_App_Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.IASA-NULL.School-App-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		1B2E212F21EB1BB600471722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9AWTG64K4K;
+				INFOPLIST_FILE = School_App_MacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.IASA-NULL.School-App-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/School_App_Mac.app/Contents/MacOS/School_App_Mac";
+			};
+			name = Debug;
+		};
+		1B2E213021EB1BB600471722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9AWTG64K4K;
+				INFOPLIST_FILE = School_App_MacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.IASA-NULL.School-App-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/School_App_Mac.app/Contents/MacOS/School_App_Mac";
+			};
+			name = Release;
+		};
+		1B2E213221EB1BB600471722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9AWTG64K4K;
+				INFOPLIST_FILE = School_App_MacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.IASA-NULL.School-App-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = School_App_Mac;
+			};
+			name = Debug;
+		};
+		1B2E213321EB1BB600471722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9AWTG64K4K;
+				INFOPLIST_FILE = School_App_MacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.IASA-NULL.School-App-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = School_App_Mac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B2E20FD21EB1BB400471722 /* Build configuration list for PBXProject "School_App_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2E212921EB1BB600471722 /* Debug */,
+				1B2E212A21EB1BB600471722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B2E212B21EB1BB600471722 /* Build configuration list for PBXNativeTarget "School_App_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2E212C21EB1BB600471722 /* Debug */,
+				1B2E212D21EB1BB600471722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B2E212E21EB1BB600471722 /* Build configuration list for PBXNativeTarget "School_App_MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2E212F21EB1BB600471722 /* Debug */,
+				1B2E213021EB1BB600471722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B2E213121EB1BB600471722 /* Build configuration list for PBXNativeTarget "School_App_MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2E213221EB1BB600471722 /* Debug */,
+				1B2E213321EB1BB600471722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B2E210921EB1BB400471722 /* School_App_Mac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B2E210A21EB1BB400471722 /* School_App_Mac.xcdatamodel */,
+			);
+			currentVersion = 1B2E210A21EB1BB400471722 /* School_App_Mac.xcdatamodel */;
+			path = School_App_Mac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B2E20FA21EB1BB400471722 /* Project object */;
+}
